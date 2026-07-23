@@ -161,8 +161,7 @@ addScore(){
     this.score++;
 
 
-    this.scoreLabel.string =
-        this.score.toString();
+    this.scoreLabel.string =this.score.toString();
 
 }
 ```
